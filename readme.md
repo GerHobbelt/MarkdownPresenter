@@ -11,11 +11,32 @@ This is what I use for giving simple, quick-to-produce presentations. Rather tha
 Demo and usage
 --------------
 Check out a demo
-[here](http://chrishulbert.github.com/MarkdownPresenter/Presenter.html).
-Use the arrow keys on your keyboard to switch between slides.
+[here](http://jsakamoto.github.com/MarkdownPresenter/Presenter.html).
 
+#### Supported devices and browsers
+Markdown Presenter may work well on iPhone/iPad, Android, and PC Desktop browsers (Chrome, Firefox, IE - if you want touch support, you can chose IE10 on Windows8 -).  
+![slide index at dropdown](http://jsakamoto.github.io/MarkdownPresenter/iphone.png)
+
+#### Switching between slides
+Use the **arrow keys** on your keyboard or **swipe horizontally** on touch screen to switch between slides.
+
+#### Reloading
 You can reload the presentation at any time - staying on the same
 slide number - by pressing the spacebar.
+
+#### Transition effect
+If you whould like to get fade in/out effect on switching between slides, type 'e' then 'f' key on your keyboard.  
+To reset this transition effect, type 'e' then 'n'.
+
+#### Direct page jump
+You can jump to the any slide which you want to show directly by 3 ways as follow:
+
+1. by PowerPoint compatibe keyboard shortcut, such as '2','1','Enter' then jump to the slide at 21.
+2. by chosing slide index from drop down list at bottom-right of the browser window.  
+![slide index at dropdown](http://jsakamoto.github.io/MarkdownPresenter/slide-index-at-dropdown.png)
+3. by specification hash tag of URL.  
+![slide index at hashtag](http://jsakamoto.github.io/MarkdownPresenter/slide-index-at-hashtag.png)
+
 
 Installing
 ----------
@@ -50,6 +71,21 @@ The presentation.md file is where you put your presentation. All you need to do 
 
     This is another slide
     Yada yada yada
+
+Printing Support
+-----
+
+Markdown Presenter can print out the all slides to any printer from browser printing feature. 
+
+![printing](http://jsakamoto.github.io/MarkdownPresenter/printing.png)
+
+The keys to get fine result is follow:
+
+- Layout - Landscape
+- Margins - No margin
+- Options - Enable to printing background colors
+
+And you can print out as a PDF file, so you can also upload and publish your slides to "slideshare.com".
 
 How it works
 ------------
